@@ -19,7 +19,7 @@ module.exports = function(environment) {
     },
 
     firebase:{
-      apiKey: "AIzaSyA55Qs78VjiH-j6MhV8ydyac0hX_SVCMi0",
+    apiKey: "AIzaSyA55Qs78VjiH-j6MhV8ydyac0hX_SVCMi0",
     authDomain: "bustle-638f1.firebaseapp.com",
     databaseURL: "https://bustle-638f1.firebaseio.com",
     projectId: "bustle-638f1",
