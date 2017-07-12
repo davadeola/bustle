@@ -1,5 +1,30 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<!-- navbar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- navbar -->
 
-{{outlet}}
+<div class="container">
+  <header>
+    <h1>Bustle</h1>
+  </header>
+  {{outlet}}
+  <footer>
+    <form class="form"  method="post">
+      <div class="form-group">
+        <input type="email" name="email" value="" placeholder="Please enter your email" id="email" class="form-control">
+        <input type="text" name="" value="" id="comments" class="form-control" placeholder="Give us your comments">
+      </div>
+    </form>
+  </footer>
+</div>
